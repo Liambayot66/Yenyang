@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: #6a62d2;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(55, 49, 6, 0.44)),url(360_F_414965116_CBTes6SdQlqFlDWasfYPTeqM2O9LTuzV.jpg);
+
+}
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    position: relative;
+    filter: drop-shadow(0 0 2px #000000);
+    border-radius: 5px;
+    width: 360px;
+    background-color: #ffffff;
+    padding: 40px;
+}
+.form input {
+    outline: 0;
+    background: #f2f2f2;
+    border-radius: 4px;
+    width: 100%;
+    border: 0;
+    margin: 15px 0;
+    padding: 15px;
+    font-size: 14px;
+}
+.form input:focus {
+    box-shadow: 0 0 5px 0 rgba(106, 98, 210, 1);
+}
+.form button {
+    outline: 0;
+    background: #6a62d2;
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.form button:hover, .form button:active, .form button:focus {
+    background: black;
+    color: #fff;
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none;
+}
+h2{
+    text-align: center;
+    color: #f2f2f2;
+}
+
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Login container styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form styles */
+.form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Image styles */
+.form img {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 20px;
+}
+
+/* H2 styles */
+.form h2 {
+    margin-bottom: 20px;
+}
+
+/* Input styles */
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styles */
+/* Button hover effect */
+.form button:hover {
+    background-color: #1e7fc7;
+}
+
+/* Error message styles */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
